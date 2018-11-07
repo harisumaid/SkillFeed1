@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+
+        <ImageView
+            android:id="@+id/clickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/work"
+            android:layout_weight="40"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/clickInstitution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSTITUITION NAME:"
+            android:textSize="20sp"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/clickskillName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="SKILL TRAINING:"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/clickcenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="LOCATION:"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/clicktime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="TIMING:"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/clicktrainerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="TRAINER NAME:"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/clickdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="DESCRIPTION:"
+            android:layout_margin="8dp"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

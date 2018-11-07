@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/defaultCard"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    card_view:cardElevation="8dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardBackgroundColor="@color/appBackGround"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="left"
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:id="@+id/skillImage"
+            android:src="@mipmap/work"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/skillName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKILL NAME:SKILL"
+                android:layout_margin="8dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="CENTER:LOCATION"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/trainerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRAINER NAME:QWERTY"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIME:00:00 to 24:00"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION:ADASDAD"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
